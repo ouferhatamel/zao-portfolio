@@ -1,4 +1,5 @@
 import './Izao.css';
+import Socials from '../Socials/Socials';
 
 export default function Izao() {
   return (
@@ -13,6 +14,7 @@ export default function Izao() {
         <button style={{ borderColor: 'var(--clr2)' }}>I Design</button>
         <button style={{ borderColor: 'var(--clr3)' }}>I Visualize</button>
       </div>
+      <Socials />
     </div>
   );
 }

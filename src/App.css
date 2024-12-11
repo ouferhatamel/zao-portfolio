@@ -1,5 +1,17 @@
 #root {
-  width: 100%;
-  padding: 4rem 8rem;
+  padding: 4rem 12rem;
+  height: 100vh;
 }
-
+.pageStyle {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  height: 100%;
+}
+.left{
+  flex: 1;
+  height: 100%;
+}
+.right{
+  flex: 1;
+}

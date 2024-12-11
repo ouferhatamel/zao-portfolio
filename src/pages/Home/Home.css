@@ -1,15 +1,8 @@
-.home {
-    height: 100%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 4rem;
+.home .right p{
+    width: 70%;
+    margin-bottom: 5rem;
 }
-.home .left{
-    background-color: burlywood;
-    
-    flex: 1;
-}
-.home .right{
-    flex: 1;
+.home .right button{
+    border-color: var(--clr3);
+    color: var(--clr3);
 }
