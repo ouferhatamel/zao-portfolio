@@ -1,22 +1,23 @@
 .header {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .header ul {
-    list-style: none;
-    display: flex;
-    gap: 2.5rem;
+  list-style: none;
+  display: flex;
+  gap: 2.5rem;
 }
-.header ul li .active-link{
-    color: var(--clr1);
-    font-weight: 600;
+.header ul li .active-link {
+  color: #6A957B;
+  font-weight: 600;
 }
-.logo a{
-    font-size: 1.5rem;
-    font-weight: 800;
+
+.logo a {
+  font-size: 1.5rem;
+  font-weight: 800;
 }
-.logo a:hover{
-    color: inherit;
-}
+.logo a:hover {
+  color: inherit;
+}/*# sourceMappingURL=Header.css.map */

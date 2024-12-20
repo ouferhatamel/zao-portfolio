@@ -1,14 +1,23 @@
-.izao{
-    padding-top: 5rem;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.izao {
+  padding-top: 5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-
 .izao .buttons {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: -moz-fit-content;
+  width: fit-content;
 }
+.izao .buttons .code {
+  border-color: #6A957B;
+}
+.izao .buttons .design {
+  border-color: #BB3D3C;
+}
+.izao .buttons .visualize {
+  border-color: #FFBE1A;
+}/*# sourceMappingURL=Izao.css.map */

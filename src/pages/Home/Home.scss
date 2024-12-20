@@ -1,0 +1,14 @@
+@import '../../styles/variables';
+
+.home {
+    .right {
+      p {
+        width: 70%;
+        margin-bottom: 5rem;
+      }
+      button {
+        border-color: $clr3;
+        color: $clr3;
+      }
+    }
+}

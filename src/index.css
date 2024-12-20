@@ -1,46 +1,48 @@
 :root {
-  --dark : #222222;
-  --light : #FEF7ED;
-  --clr1 : #6A957B;
-  --clr2 : #BB3D3C;
-  --clr3 : #FFBE1A;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  
   height: 100vh;
-  overflow: hidden;
-  color: var(--light);
-  background-color: var(--dark);
+  color: #FEF7ED;
+  background-color: #222222;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-a {
-  color: var(--light);
-  font-weight: 500;
-  text-decoration: inherit;
-}
-a:hover {
-  color: var(--clr1);
-}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body {
-}
+
 h1 {
   font-size: 2.2rem;
   line-height: 1.1;
 }
+@media only screen and (max-width: 576px) {
+  h1 {
+    font-size: 1.5rem;
+    line-height: 1.1;
+  }
+}
+
+a {
+  color: #FEF7ED;
+  font-weight: 500;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #6A957B;
+}
+
 button {
-  color: var(--light);
+  color: #FEF7ED;
   background-color: transparent;
   border-radius: 50px;
-  border: 2px solid var(--clr1);
+  border-width: 2px;
+  border-style: solid;
   padding: 0.5em 1.2em;
   font-size: 1rem;
   font-weight: 500;
@@ -50,7 +52,6 @@ button {
 button:hover {
   border-color: transparent;
 }
-button:focus,
-button:focus-visible {
+button:focus, button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
+}/*# sourceMappingURL=index.css.map */

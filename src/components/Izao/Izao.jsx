@@ -10,9 +10,9 @@ export default function Izao() {
         <b>Zohra Amel Ouferhat</b>
       </h1>
       <div className="buttons">
-        <button style={{ borderColor: 'var(--clr1)' }}>I Code</button>
-        <button style={{ borderColor: 'var(--clr2)' }}>I Design</button>
-        <button style={{ borderColor: 'var(--clr3)' }}>I Visualize</button>
+        <button className='code'>I Code</button>
+        <button className='design'>I Design</button>
+        <button className='visualize'>I Visualize</button>
       </div>
       <Socials />
     </div>

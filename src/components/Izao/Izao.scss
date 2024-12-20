@@ -1,0 +1,24 @@
+@import '../../styles/variables';
+
+.izao {
+  padding-top: 5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: fit-content;
+        .code {
+          border-color: $clr1;
+        }
+        .design {
+          border-color: $clr2;
+        }
+        .visualize {
+          border-color: $clr3;
+        }
+  }
+}
