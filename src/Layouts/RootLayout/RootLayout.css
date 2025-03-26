@@ -1,3 +1,84 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  height: 100vh;
+  color: #FEF7ED;
+  background-color: #222222;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2.2rem;
+  line-height: 1.1;
+}
+@media only screen and (max-width: 992px) {
+  h1 {
+    font-size: 2rem;
+    line-height: 1.1;
+  }
+}
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.8rem;
+    line-height: 1.1;
+  }
+}
+@media only screen and (max-width: 576px) {
+  h1 {
+    font-size: 1.5rem;
+    line-height: 1.1;
+  }
+}
+
+a {
+  color: #FEF7ED;
+  font-weight: 500;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #6A957B;
+}
+
+button {
+  color: #FEF7ED;
+  background-color: transparent;
+  border-radius: 50px;
+  border-width: 2px;
+  border-style: solid;
+  padding: 0.5em 1.2em;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: transparent;
+}
+button:focus, button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
 .rootLayout {
-  height: 100%;
+  padding: 4rem 12rem;
+  height: 100vh;
+}
+@media only screen and (max-width: 576px) {
+  .rootLayout {
+    padding: 2.5rem;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .rootLayout {
+    padding: 2rem;
+  }
 }/*# sourceMappingURL=RootLayout.css.map */

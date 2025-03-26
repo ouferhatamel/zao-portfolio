@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 3rem;
 }
 .izao .buttons {
   display: flex;
@@ -20,4 +21,19 @@
 }
 .izao .buttons .visualize {
   border-color: #FFBE1A;
+}
+@media only screen and (max-width: 576px) {
+  .izao {
+    width: 100%;
+    justify-content: flex-start;
+    gap: 2rem;
+  }
+  .izao .buttons {
+    flex-direction: row;
+  }
+  .izao .buttons button {
+    width: -moz-fit-content;
+    width: fit-content;
+    font-size: 0.8rem;
+  }
 }/*# sourceMappingURL=Izao.css.map */

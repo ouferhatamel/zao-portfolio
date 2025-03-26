@@ -5,4 +5,24 @@
 .home .right button {
   border-color: #FFBE1A;
   color: #FFBE1A;
+  border: none;
+}
+@media only screen and (max-width: 992px) {
+  .home .right p {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .home .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home .right p {
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+}
+.home .left {
+  width: 100%;
 }/*# sourceMappingURL=Home.css.map */

@@ -5,7 +5,7 @@ export default function Izao() {
   return (
     <div className='izao'>
       <h1 style={{ fontWeight: 300 }}>
-        Hi, This is
+        Hi, I'm
         <br />
         <b>Zohra Amel Ouferhat</b>
       </h1>

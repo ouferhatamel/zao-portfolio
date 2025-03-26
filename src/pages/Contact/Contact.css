@@ -1,1 +1,10 @@
-/*# sourceMappingURL=Contact.css.map */
+.left {
+  width: 100%;
+}
+
+.right {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}/*# sourceMappingURL=Contact.css.map */

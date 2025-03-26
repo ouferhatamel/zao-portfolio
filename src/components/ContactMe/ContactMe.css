@@ -1,0 +1,23 @@
+.contactMe {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+}
+.contactMe p {
+  margin-bottom: 1rem;
+}
+@media only screen and (max-width: 576px) {
+  .contactMe {
+    gap: 0;
+  }
+}
+
+.contact a {
+  margin-right: 1rem;
+}
+
+.contactdetails {
+  display: flex;
+  flex-direction: column;
+}/*# sourceMappingURL=ContactMe.css.map */
