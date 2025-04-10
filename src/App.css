@@ -57,15 +57,10 @@ button {
   border-style: solid;
   padding: 0.5em 1.2em;
   font-size: 1rem;
-  font-weight: 500;
   cursor: pointer;
-  transition: border-color 0.25s;
 }
 button:hover {
   border-color: transparent;
-}
-button:focus, button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
 }
 
 .pageStyle {
@@ -76,9 +71,11 @@ button:focus, button:focus-visible {
 }
 .pageStyle .left {
   flex: 1;
+  padding-top: 5rem;
   height: 100%;
 }
 .pageStyle .right {
+  padding-top: 5rem;
   flex: 1;
 }
 @media only screen and (max-width: 576px) {

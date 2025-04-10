@@ -1,0 +1,10 @@
+.projectInfo{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 3rem;
+    p{
+        width: 70%;
+    }
+}

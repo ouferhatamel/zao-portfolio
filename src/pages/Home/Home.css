@@ -2,10 +2,12 @@
   width: 70%;
   margin-bottom: 5rem;
 }
-.home .right button {
-  border-color: #FFBE1A;
+.home .right .cta {
   color: #FFBE1A;
   border: none;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-left: 0;
 }
 @media only screen and (max-width: 992px) {
   .home .right p {
