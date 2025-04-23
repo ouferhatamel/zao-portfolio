@@ -4,7 +4,7 @@ import Socials from '../Socials/Socials';
 export default function Izao() {
   return (
     <div className='izao'>
-      <h1 style={{ fontWeight: 300 }}>
+      <h1 style={{ fontWeight: 400}}>
         Hi, I'm
         <br />
         <b>Zohra Amel Ouferhat</b>

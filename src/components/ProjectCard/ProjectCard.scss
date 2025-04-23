@@ -1,3 +1,5 @@
+@import '../../styles/variables';
+
 .ProjectCard{
     position: relative;
     width: 43%;
@@ -25,7 +27,7 @@
         background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
         transition: transform .3s ease;
         .cardInfo{
-            margin-top: 8rem;
+            margin-top: 10rem;
             h3{
                 font-size: 1rem;
             }
@@ -43,6 +45,33 @@
                 border-radius: 25px;
                 padding: 3px 16px;
                 background-color: rgba(251, 190, 26, .5);
+            }
+        }
+    }
+    @media only screen and (max-width: $breakpoint-sm) {
+        .overlay{
+            width: 100%;
+            height: fit-content;
+            transform: translateY(0%);
+            bottom: 0;
+            padding: .4rem .7rem;
+            background: linear-gradient(to top, rgb(255, 255, 255, 1), rgba(255, 255, 255, .5));
+            .cardInfo{
+                margin-top: 0;
+                h3{
+                    color: $dark;
+                    font-size: .6rem;
+                }
+            }
+        }
+        .cardInfo{
+            ul{
+                flex-wrap: nowrap;
+                gap: .5rem;
+                li{
+                    color: $dark;
+                    font-size: .4rem;
+                }
             }
         }
     }

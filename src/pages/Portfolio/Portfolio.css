@@ -1,1 +1,8 @@
-/*# sourceMappingURL=Portfolio.css.map */
+.portfolio .right {
+  width: 100%;
+}
+@media only screen and (max-width: 576px) {
+  .portfolio .left {
+    display: none;
+  }
+}/*# sourceMappingURL=Portfolio.css.map */

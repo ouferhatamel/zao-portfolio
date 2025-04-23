@@ -25,7 +25,7 @@
   transition: transform 0.3s ease;
 }
 .ProjectCard .overlay .cardInfo {
-  margin-top: 8rem;
+  margin-top: 10rem;
 }
 .ProjectCard .overlay .cardInfo h3 {
   font-size: 1rem;
@@ -42,4 +42,30 @@
   border-radius: 25px;
   padding: 3px 16px;
   background-color: rgba(251, 190, 26, 0.5);
+}
+@media only screen and (max-width: 576px) {
+  .ProjectCard .overlay {
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    transform: translateY(0%);
+    bottom: 0;
+    padding: 0.4rem 0.7rem;
+    background: linear-gradient(to top, rgb(255, 255, 255), rgba(255, 255, 255, 0.5));
+  }
+  .ProjectCard .overlay .cardInfo {
+    margin-top: 0;
+  }
+  .ProjectCard .overlay .cardInfo h3 {
+    color: #222222;
+    font-size: 0.6rem;
+  }
+  .ProjectCard .cardInfo ul {
+    flex-wrap: nowrap;
+    gap: 0.5rem;
+  }
+  .ProjectCard .cardInfo ul li {
+    color: #222222;
+    font-size: 0.4rem;
+  }
 }/*# sourceMappingURL=ProjectCard.css.map */
