@@ -11,15 +11,26 @@
   gap: 2rem;
   width: -moz-fit-content;
   width: fit-content;
+  white-space: nowrap;
 }
-.izao .buttons .code {
-  border-color: #6A957B;
+.izao .buttons a {
+  border-radius: 50px;
+  padding: 0.5em 1.2em;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  text-align: center;
 }
-.izao .buttons .design {
-  border-color: #BB3D3C;
+.izao .buttons a.code {
+  border: 1px solid #6A957B;
+  color: #6A957B;
 }
-.izao .buttons .visualize {
-  border-color: #FFBE1A;
+.izao .buttons a.design {
+  border: 1px solid #BB3D3C;
+  color: #BB3D3C;
+}
+.izao .buttons a.visualize {
+  border: 1px solid #FFBE1A;
+  color: #FFBE1A;
 }
 @media only screen and (max-width: 576px) {
   .izao {
@@ -29,6 +40,7 @@
   }
   .izao .buttons {
     flex-direction: row;
+    gap: 1rem;
   }
   .izao .buttons button {
     width: -moz-fit-content;

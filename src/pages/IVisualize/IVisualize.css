@@ -1,0 +1,12 @@
+.ivisualize .right {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.ivisualize .right h2 {
+  color: #FFBE1A;
+  margin-bottom: 0.5rem;
+}
+.ivisualize .right .cta {
+  color: #FFBE1A;
+}/*# sourceMappingURL=IVisualize.css.map */

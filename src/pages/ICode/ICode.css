@@ -1,0 +1,25 @@
+.icode .right {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.icode .right h2, .icode .right h3 {
+  color: #6A957B;
+  margin-bottom: 0.5rem;
+}
+.icode .right ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.icode .right ul li {
+  background-color: rgba(106, 149, 123, 0.3);
+  border-radius: 25px;
+  padding: 4px 12px;
+  font-size: 0.9rem;
+}
+.icode .right .cta {
+  color: #FFBE1A;
+}/*# sourceMappingURL=ICode.css.map */

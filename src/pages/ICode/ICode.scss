@@ -1,0 +1,29 @@
+@import '../../styles/variables';
+
+.icode{
+    .right{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        h2, h3{
+            color: $clr1;
+            margin-bottom: .5rem;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 2rem;
+            li{
+                background-color: rgba(106, 149, 123, .3);
+                border-radius: 25px;
+                padding: 4px 12px;
+                font-size: .9rem;
+            }
+        }
+        .cta{
+            color: $clr3;
+        }
+    }
+}

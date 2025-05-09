@@ -1,0 +1,25 @@
+.idesign .right {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.idesign .right h2, .idesign .right h3 {
+  color: #BB3D3C;
+  margin-bottom: 0.5rem;
+}
+.idesign .right ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.idesign .right ul li {
+  background-color: rgba(187, 61, 60, 0.3);
+  border-radius: 25px;
+  padding: 4px 12px;
+  font-size: 0.9rem;
+}
+.idesign .right .cta {
+  color: #FFBE1A;
+}/*# sourceMappingURL=IDesign.css.map */

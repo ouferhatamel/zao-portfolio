@@ -5,6 +5,9 @@ import RouteLayout from './Layouts/RootLayout/RootLayout'
 import Home from './pages/Home/Home'
 import Portfolio from './pages/Portfolio/Portfolio'
 import Contact from './pages/Contact/Contact'
+import ICode from './pages/ICode/ICode'
+import IDesgin from './pages/IDesign/IDesign'
+import IVisualize from './pages/IVisualize/IVisualize'
 
 function App() {
   const router = createBrowserRouter(
@@ -13,6 +16,9 @@ function App() {
         <Route index element= {<Home />} />
         <Route path='/Portfolio' element= {<Portfolio />}/>
         <Route path='/Contact' element= {<Contact />} />
+        <Route path='/I_Code' element= {< ICode/>} />
+        <Route path='/I_Design' element={<IDesgin />} />
+        <Route path='/I_Visualize' element={<IVisualize />} />
       </Route>
     )
   )

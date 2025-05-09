@@ -1,0 +1,56 @@
+@import '../../styles/variables';
+
+.ido{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    .cta {
+        color: $clr3;
+        width: fit-content;
+        padding-left: 0;
+      }
+    .green{
+        h2, h3{
+            color: $clr1;
+            margin-bottom: .5rem;
+        }
+        p{
+            margin-bottom: 3rem;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 2rem;
+            li{
+                background-color: rgba(106, 149, 123, .3);
+                border-radius: 25px;
+                padding: 4px 12px;
+                font-size: .9rem;
+            }
+        }
+    }
+    .red{
+        h2, h3{
+            color: $clr2;
+            margin-bottom: .5rem;
+        }
+        p{
+            margin-bottom: 3rem;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 2rem;
+            li{
+                background-color: rgba(187, 61, 60, .3);
+                border-radius: 25px;
+                padding: 4px 12px;
+                font-size: .9rem;
+            }
+        }
+    }
+}

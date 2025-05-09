@@ -1,30 +1,9 @@
-.home .right p {
-  width: 70%;
+.home p {
   margin-bottom: 5rem;
 }
-.home .right .cta {
+.home .cta {
   color: #FFBE1A;
-  border: none;
   width: -moz-fit-content;
   width: fit-content;
   padding-left: 0;
-}
-@media only screen and (max-width: 992px) {
-  .home .right p {
-    width: 100%;
-  }
-}
-@media only screen and (max-width: 576px) {
-  .home .right {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .home .right p {
-    margin-bottom: 3rem;
-    text-align: center;
-  }
-}
-.home .left {
-  width: 100%;
 }/*# sourceMappingURL=Home.css.map */

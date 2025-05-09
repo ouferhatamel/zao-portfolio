@@ -1,0 +1,51 @@
+.ido {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.ido .cta {
+  color: #FFBE1A;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-left: 0;
+}
+.ido .green h2, .ido .green h3 {
+  color: #6A957B;
+  margin-bottom: 0.5rem;
+}
+.ido .green p {
+  margin-bottom: 3rem;
+}
+.ido .green ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.ido .green ul li {
+  background-color: rgba(106, 149, 123, 0.3);
+  border-radius: 25px;
+  padding: 4px 12px;
+  font-size: 0.9rem;
+}
+.ido .red h2, .ido .red h3 {
+  color: #BB3D3C;
+  margin-bottom: 0.5rem;
+}
+.ido .red p {
+  margin-bottom: 3rem;
+}
+.ido .red ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.ido .red ul li {
+  background-color: rgba(187, 61, 60, 0.3);
+  border-radius: 25px;
+  padding: 4px 12px;
+  font-size: 0.9rem;
+}/*# sourceMappingURL=IDo.css.map */

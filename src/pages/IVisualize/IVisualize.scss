@@ -1,0 +1,15 @@
+@import '../../styles/variables';
+.ivisualize{
+    .right{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        h2{
+            color: $clr3;
+            margin-bottom: .5rem;
+        }
+        .cta{
+            color: $clr3;
+        }
+    }
+}
