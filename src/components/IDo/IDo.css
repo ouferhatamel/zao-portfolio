@@ -4,13 +4,13 @@
   gap: 4rem;
 }
 .ido .cta {
-  color: #FFBE1A;
+  color: #ffbe1a;
   width: -moz-fit-content;
   width: fit-content;
   padding-left: 0;
 }
 .ido .green h2, .ido .green h3 {
-  color: #6A957B;
+  color: #6a957b;
   margin-bottom: 0.5rem;
 }
 .ido .green p {
@@ -30,7 +30,7 @@
   font-size: 0.9rem;
 }
 .ido .red h2, .ido .red h3 {
-  color: #BB3D3C;
+  color: #bb3d3c;
   margin-bottom: 0.5rem;
 }
 .ido .red p {

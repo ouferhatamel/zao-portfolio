@@ -21,16 +21,40 @@
   text-align: center;
 }
 .izao .buttons a.code {
-  border: 1px solid #6A957B;
-  color: #6A957B;
+  border: 1px solid #6a957b;
+  color: #6a957b;
+}
+.izao .buttons a.code:hover {
+  background-color: rgba(106, 149, 123, 0.3);
+  color: #FEF7ED;
+}
+.izao .buttons a.code.active {
+  background-color: #6a957b;
+  color: #FEF7ED;
 }
 .izao .buttons a.design {
-  border: 1px solid #BB3D3C;
-  color: #BB3D3C;
+  border: 1px solid #bb3d3c;
+  color: #bb3d3c;
+}
+.izao .buttons a.design:hover {
+  background-color: rgba(187, 61, 60, 0.3);
+  color: #FEF7ED;
+}
+.izao .buttons a.design.active {
+  background-color: #bb3d3c;
+  color: #FEF7ED;
 }
 .izao .buttons a.visualize {
-  border: 1px solid #FFBE1A;
-  color: #FFBE1A;
+  border: 1px solid #ffbe1a;
+  color: #ffbe1a;
+}
+.izao .buttons a.visualize:hover {
+  background-color: rgba(255, 190, 26, 0.3);
+  color: #FEF7ED;
+}
+.izao .buttons a.visualize.active {
+  background-color: #ffbe1a;
+  color: #222222;
 }
 @media only screen and (max-width: 576px) {
   .izao {
@@ -40,11 +64,11 @@
   }
   .izao .buttons {
     flex-direction: row;
+    justify-content: space-between;
     gap: 1rem;
   }
-  .izao .buttons button {
-    width: -moz-fit-content;
-    width: fit-content;
+  .izao .buttons a {
     font-size: 0.9rem;
+    padding: 0.4rem 1rem;
   }
 }/*# sourceMappingURL=Izao.css.map */

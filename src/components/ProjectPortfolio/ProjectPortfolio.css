@@ -5,8 +5,7 @@
   gap: 3rem;
   overflow-x: hidden;
 }
-
-.projectFilters {
+.projectPortfolio .projectFilters {
   max-width: 100%;
   display: flex;
   gap: 2rem;
@@ -16,42 +15,58 @@
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
-.projectFilters .pFilter {
-  background-color: #6A957B;
+.projectPortfolio .projectFilters .pFilter {
+  background-color: #6a957b;
   opacity: 0.7;
   border: none;
   transition: opacity 0.3s ease;
   white-space: nowrap;
 }
-.projectFilters .pFilter:hover, .projectFilters .pFilter.active {
+.projectPortfolio .projectFilters .pFilter:hover, .projectPortfolio .projectFilters .pFilter.active {
   opacity: 1;
 }
-.projectFilters::-webkit-scrollbar {
+.projectPortfolio .projectFilters::-webkit-scrollbar {
   display: none;
 }
-
-.projects {
+.projectPortfolio .projects {
   max-width: 100%;
   display: flex;
   flex-wrap: wrap;
   gap: 3rem;
   overflow-y: scroll;
   scrollbar-width: thin;
-  scrollbar-color: #FFBE1A #e6e6e6;
+  scrollbar-color: #ffbe1a #e6e6e6;
 }
-.projects::-webkit-scrollbar {
+.projectPortfolio .projects::-webkit-scrollbar {
   width: 8px;
   height: 8px;
 }
-.projects::-webkit-scrollbar-track {
+.projectPortfolio .projects::-webkit-scrollbar-track {
   background: #e6e6e6;
   border-radius: 10px;
 }
-.projects::-webkit-scrollbar-thumb {
-  background-color: #6A957B;
+.projectPortfolio .projects::-webkit-scrollbar-thumb {
+  background-color: #6a957b;
   border-radius: 10px;
   border: 2px solid #e6e6e6;
 }
-.projects::-webkit-scrollbar-thumb:hover {
+.projectPortfolio .projects::-webkit-scrollbar-thumb:hover {
   background-color: #943030;
+}
+@media only screen and (max-width: 576px) {
+  .projectPortfolio .projectFilters {
+    gap: 1rem;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .projectPortfolio .projectFilters .pFilter {
+    font-size: 0.9rem;
+  }
+  .projectPortfolio .projectFilters::-webkit-scrollbar {
+    display: none;
+  }
+  .projectPortfolio .projects {
+    gap: 1rem;
+    justify-content: space-between;
+  }
 }/*# sourceMappingURL=ProjectPortfolio.css.map */

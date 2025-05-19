@@ -6,64 +6,80 @@
     flex-direction: column;
     gap: 3rem;
     overflow-x: hidden;
-}
-.projectFilters {
-    max-width: 100%;
-    display: flex;
-    gap: 2rem;
-    overflow-x: scroll;
-    min-height: fit-content;
-  
-    .pFilter {
-      background-color: $clr1;
-      opacity: 0.7;
-      border: none;
-      transition: opacity 0.3s ease;
-      white-space: nowrap;
-  
-      &:hover,
-      &.active {
-        opacity: 1;
+    .projectFilters {
+      max-width: 100%;
+      display: flex;
+      gap: 2rem;
+      overflow-x: scroll;
+      min-height: fit-content;
+    
+      .pFilter {
+        background-color: $clr1;
+        opacity: 0.7;
+        border: none;
+        transition: opacity 0.3s ease;
+        white-space: nowrap;
+    
+        &:hover,
+        &.active {
+          opacity: 1;
+        }
+      }
+    
+      // Hide scrollbar
+      scrollbar-width: none;        // Firefox
+      -ms-overflow-style: none;     // IE 10+
+      &::-webkit-scrollbar {
+        display: none;              // Chrome, Safari, Opera
       }
     }
-  
-    // Hide scrollbar
-    scrollbar-width: none;        // Firefox
-    -ms-overflow-style: none;     // IE 10+
-    &::-webkit-scrollbar {
-      display: none;              // Chrome, Safari, Opera
-    }
-  }
-  
-.projects{
-    max-width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 3rem;
-    overflow-y: scroll;
-
-    // WebKit browsers (Chrome, Safari, Edge)
-    &::-webkit-scrollbar {
-        width: 8px;
-        height: 8px;
-    }
-
-    &::-webkit-scrollbar-track {
-        background: #e6e6e6; // Track background
-        border-radius: 10px;
-    }
-
-    &::-webkit-scrollbar-thumb {
-        background-color: $clr1; // Use your SCSS variable or a color like #fbbe1a
-        border-radius: 10px;
-        border: 2px solid #e6e6e6; // Adds spacing around thumb
-    }
-
-    &::-webkit-scrollbar-thumb:hover {
-        background-color: darken($clr2, 10%); // Darker on hover
-    }
-
+    
+    .projects{
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3rem;
+        overflow-y: scroll;
+    
+        // WebKit browsers (Chrome, Safari, Edge)
+        &::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        &::-webkit-scrollbar-track {
+            background: #e6e6e6; // Track background
+            border-radius: 10px;
+        }
+        &::-webkit-scrollbar-thumb {
+            background-color: $clr1; // Use your SCSS variable or a color like #fbbe1a
+            border-radius: 10px;
+            border: 2px solid #e6e6e6; // Adds spacing around thumb
+        }
+        &::-webkit-scrollbar-thumb:hover {
+            background-color: darken($clr2, 10%); // Darker on hover
+        }
+    
         // Firefox
         scrollbar-width: thin;
         scrollbar-color: $clr3 #e6e6e6;
+    }
+    @media only screen and (max-width: $breakpoint-sm){
+      .projectFilters {
+        gap: 1rem;
+        .pFilter {
+          font-size: .9rem;
+        }
+      
+        // Hide scrollbar
+        scrollbar-width: none;        // Firefox
+        -ms-overflow-style: none;     // IE 10+
+        &::-webkit-scrollbar {
+          display: none;              // Chrome, Safari, Opera
+        }
+      }
+      .projects{
+        gap: 1rem;
+        justify-content: space-between;
+      }
+    }
 }

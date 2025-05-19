@@ -1,9 +1,9 @@
 // Colors
 $dark: #222222;
 $light: #FEF7ED;
-$clr1: #6A957B;
-$clr2: #BB3D3C;
-$clr3: #FFBE1A;
+$clr1: #6a957b;
+$clr2: #bb3d3c;
+$clr3: #ffbe1a;
 
 // Font and Typography
 $font-family-base: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -11,7 +11,7 @@ $line-height-base: 1.5;
 $font-weight-base: 400;
 
 // Breakpoints
-$breakpoint-xs: 320px;  // Extra small devices (phones)
+$breakpoint-xs: 390px;  // Extra small devices (phones)
 $breakpoint-sm: 576px;  // Small devices (landscape phones)
 $breakpoint-md: 768px;  // Medium devices (tablets)
 $breakpoint-lg: 992px;  // Large devices (desktops)
@@ -21,3 +21,4 @@ $breakpoint-xl: 1200px; // Extra large devices (large desktops)
 $padding-desktop: 4rem 14rem;
 $padding-tablet: 3rem 8rem;
 $padding-mobile: 2.5rem;
+$padding-smobile: 2rem;

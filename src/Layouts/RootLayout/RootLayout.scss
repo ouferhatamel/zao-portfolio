@@ -2,13 +2,21 @@
 @import './../../styles/global';
 
 .rootLayout{
+    display: flex;
+    flex-direction: column;
     padding: $padding-desktop;
     height: 100vh;
-
-    @media only screen and (max-width: $breakpoint-sm) {
-        padding: 2.5rem;
-    }
+    min-height: 100vh;
+    
     @media only screen and (max-width: $breakpoint-lg) {
-        padding: 2rem;
+        padding: $padding-tablet;
     }
+    @media only screen and (max-width: $breakpoint-sm) {
+        padding: $padding-mobile;
+        height: fit-content;
+    }
+    @media only screen and (max-width: $breakpoint-xs) {
+        padding: $padding-smobile;
+    }
+    
 }

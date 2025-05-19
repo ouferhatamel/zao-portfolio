@@ -11,7 +11,7 @@ export default function ContactMe() {
             <h2>Contact Me</h2>
             <div className='contactIcons'>
                 <p>Get in touch with me now</p>
-                <div className="contact">
+                <div className="contactInfo">
                     <a href="mailto:zohra.amel.ouferhat@gmail.com" target='_blank'><img src={email} alt="Email Me" /></a>
                     <a href="tel:+6137934415"><img src={phone} alt="Phone number" /></a>
                     <a href="https://www.linkedin.com/in/amel-zohra-ouferhat-97467b117/" target='_blank'><img src={linkedin} alt="Linkedin" /></a>

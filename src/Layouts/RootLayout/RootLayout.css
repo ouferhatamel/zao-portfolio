@@ -58,15 +58,25 @@ button {
 }
 
 .rootLayout {
+  display: flex;
+  flex-direction: column;
   padding: 4rem 14rem;
   height: 100vh;
+  min-height: 100vh;
+}
+@media only screen and (max-width: 992px) {
+  .rootLayout {
+    padding: 3rem 8rem;
+  }
 }
 @media only screen and (max-width: 576px) {
   .rootLayout {
     padding: 2.5rem;
+    height: -moz-fit-content;
+    height: fit-content;
   }
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 390px) {
   .rootLayout {
     padding: 2rem;
   }

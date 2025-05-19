@@ -24,16 +24,40 @@
     a.code {
       border: 1px solid $clr1;
       color: $clr1;
+      &:hover{
+        background-color: rgba(106, 149, 123, 30%);
+        color: $light;
+      }
+      &.active{
+        background-color: $clr1;
+        color: $light;
+      }
     }
   
     a.design {
       border: 1px solid $clr2;
       color: $clr2;
+      &:hover{
+        background-color: rgba(187, 61, 60, 30%);
+        color: $light;
+      }
+      &.active{
+        background-color: $clr2;
+        color: $light;
+      }
     }
   
     a.visualize {
       border: 1px solid $clr3;
       color: $clr3;
+      &:hover{
+        background-color: rgba(255, 190, 26, 30%);
+        color: $light;
+      }
+      &.active{
+        background-color: $clr3;
+        color: $dark;
+      }
     }
   }
   
@@ -43,10 +67,11 @@
     gap: 2rem;
     .buttons {
       flex-direction: row;
+      justify-content: space-between;
       gap: 1rem;
-      button{
-        width: fit-content;
+      a{
         font-size: .9rem;
+        padding: 0.4rem 1rem;
       }
     }
   }

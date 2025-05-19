@@ -14,19 +14,19 @@ export default function Izao({ onChangeBtn, activeBtn }) {
       
         <NavLink 
           to="/I_Code"
-          className="code"
+          className={({isActive}) => isActive ? "code active" : "code"}
         >
           I Code
         </NavLink>
         <NavLink 
           to="/I_Design"
-          className="design"
+          className={({isActive}) => isActive ? "design active" : "design"}
         >
           I Design
         </NavLink>
         <NavLink 
           to="/I_Visualize"
-          className="visualize"
+          className={({isActive}) => isActive ? "visualize active" : "visualize"}
         >
           I Visualize
         </NavLink>
