@@ -13,6 +13,31 @@
             transform: translateY(0%);
         }
     }
+    /* Skeleton loader styles */
+    .skeleton {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #e0e0e0;
+        border-radius: 20px;
+        animation: shimmer 1.5s infinite;
+        z-index: 0; // Behind overlay
+    }
+  
+  @keyframes shimmer {
+    0% {
+      background-color: #e0e0e0;
+    }
+    50% {
+      background-color: #f0f0f0;
+    }
+    100% {
+      background-color: #e0e0e0;
+    }
+  }
+  
     img{
         width: 100%;
         object-fit: cover;
