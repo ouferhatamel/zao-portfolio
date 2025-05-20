@@ -1,6 +1,6 @@
 .ProjectCard {
   position: relative;
-  flex: 1;
+  width: 43%;
   aspect-ratio: 1/1;
   border-radius: 20px;
   overflow: hidden;
@@ -43,6 +43,9 @@
   background-color: rgba(251, 190, 26, 0.5);
 }
 @media only screen and (max-width: 576px) {
+  .ProjectCard {
+    width: calc(50% - 0.5rem);
+  }
   .ProjectCard .overlay {
     width: 100%;
     height: -moz-fit-content;
