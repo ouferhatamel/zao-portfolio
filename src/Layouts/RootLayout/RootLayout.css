@@ -71,13 +71,13 @@ button {
 }
 @media only screen and (max-width: 576px) {
   .rootLayout {
-    padding: 2.5rem;
+    padding: 2rem 1rem;
     height: -moz-fit-content;
     height: fit-content;
   }
 }
 @media only screen and (max-width: 390px) {
   .rootLayout {
-    padding: 2rem;
+    padding: 1.8rem 0.8rem;
   }
 }/*# sourceMappingURL=RootLayout.css.map */
