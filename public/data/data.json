@@ -21,30 +21,72 @@
         {
             "id": "1",
             "title": "L'îlot",
-            "imgSrc": "/images/graphic-design/l'ilot-branding-cover-zohra amel ouferhat-100.jpg",
+            "imgSrc": "/images/graphic-design/l'ilot-branding-cover-zohra amel ouferhat.jpg",
             "alt": "L'îlot - Branding",
             "link": "https://www.behance.net/gallery/222366265/Llot-Architecture-Brand-Identity"
         },
         {
             "id": "2",
             "title": "Hikma",
-            "imgSrc": "/images/graphic-design/hikma-branding-cover-zohra amel ouferhat-100.jpg",
+            "imgSrc": "/images/graphic-design/hikma-branding-cover-zohra amel ouferhat.jpg",
             "alt": "Hikma - Branding",
             "link": "https://www.behance.net/gallery/164573307/Hikma-Landing-web-page"
         },
         {
             "id": "3",
             "title": "Steward - Branding",
-            "imgSrc": "/images/graphic-design/steward-branding-cover-zohra amel ouferhat-100.jpg",
+            "imgSrc": "/images/graphic-design/steward-branding-cover-zohra amel ouferhat.jpg",
             "alt": "Steward - Branding",
             "link": "https://www.behance.net/gallery/222815971/Steward-Money-Solutions-Financial-Logo-design"
         },
         {
             "id": "4",
             "title": "Fennec Technologies",
-            "imgSrc": "/images/graphic-design/fennec-branding-cover-zohra amel ouferhat-100.jpg",
+            "imgSrc": "/images/graphic-design/fennec-branding-cover-zohra amel ouferhat.jpg",
             "alt": "Fennect Technologies",
             "link": "https://www.behance.net/gallery/83439817/Fennec"
+        },
+        {
+            "id": "5",
+            "title": "ST-GROUP",
+            "imgSrc": "/images/graphic-design/st-group-branding-cover-zohra amel ouferhat.jpg",
+            "alt": "ST-GROUP",
+            "link": "#"
+        },
+        {
+            "id": "5",
+            "title": "ST-GROUP",
+            "imgSrc": "/images/graphic-design/st-group-branding-cover-zohra amel ouferhat.jpg",
+            "alt": "ST-GROUP",
+            "link": "#"
+        },
+        {
+            "id": "6",
+            "title": "Ahmed Al Saeed",
+            "imgSrc": "/images/graphic-design/ahmed Al Saeed-branding-cover-zohra amel ouferhat.jpg",
+            "alt": "Ahmed Al Saeed",
+            "link": "#"
+        },
+        {
+            "id": "7",
+            "title": "Diver Studio",
+            "imgSrc": "/images/graphic-design/diver studio-branding-cover-zohra amel ouferhat.jpg",
+            "alt": "Diver Studio",
+            "link": "#"
+        },
+        {
+            "id": "8",
+            "title": "Go Skydive Dubai",
+            "imgSrc": "/images/graphic-design/goskydive-dubai-branding-cover-zohra amel ouferhat.jpg",
+            "alt": "Go Skydive Dubai",
+            "link": "#"
+        },
+        {
+            "id": "9",
+            "title": "El Mizen",
+            "imgSrc": "/images/graphic-design/elmizen-branding-cover-zohra amel ouferhat.jpg",
+            "alt": "El Mizen",
+            "link": "#"
         }
         ],
         "vi": [
