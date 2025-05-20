@@ -2,7 +2,6 @@ import './ICode.css'
 import { Link } from 'react-router-dom';
 
 import Izao from "../../components/Izao/Izao";
-import IDo from '../../components/IDo/IDo';
 import { useState } from 'react';
 
 
@@ -34,7 +33,7 @@ export default function ICode() {
                 <li>Express.js</li>
             </ul>
         </div>
-        <Link className="cta" to='/Contact'>Work With Me &#8594;</Link>
+        <Link className="cta" to='/Contact'>Hire me &#8594;</Link>
         
       </div>
     </div>

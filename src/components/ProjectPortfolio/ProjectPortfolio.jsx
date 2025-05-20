@@ -48,6 +48,7 @@ export default function ProjectPortfolio() {
               title={project.title}
               imgSrc={project.imgSrc}
               alt={project.alt}
+              link={project.link}
             />
           ))
         }

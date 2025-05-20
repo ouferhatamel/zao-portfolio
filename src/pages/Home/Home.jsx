@@ -2,7 +2,6 @@ import './Home.css'
 import { Link } from 'react-router-dom';
 
 import Izao from "../../components/Izao/Izao";
-import IDo from '../../components/IDo/IDo';
 import { useState } from 'react';
 
 

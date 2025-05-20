@@ -20,39 +20,31 @@
         "gd": [
         {
             "id": "1",
-            "title": "L'îlot - Branding",
-            "imgSrc": "/images/project-cover-images/Zohra Amel Ouferhat-L'îlot Branding-Cover.jpg",
-            "alt": "L'îlot - Branding"
+            "title": "L'îlot",
+            "imgSrc": "/images/graphic-design/l'ilot-branding-cover-zohra amel ouferhat-100.jpg",
+            "alt": "L'îlot - Branding",
+            "link": "https://www.behance.net/gallery/222366265/Llot-Architecture-Brand-Identity"
         },
         {
             "id": "2",
-            "title": "L'îlot - Branding",
-            "imgSrc": "/images/project-cover-images/Zohra Amel Ouferhat-L'îlot Branding-Cover.jpg",
-            "alt": "L'îlot - Branding"
+            "title": "Hikma",
+            "imgSrc": "/images/graphic-design/hikma-branding-cover-zohra amel ouferhat-100.jpg",
+            "alt": "Hikma - Branding",
+            "link": "https://www.behance.net/gallery/164573307/Hikma-Landing-web-page"
         },
         {
             "id": "3",
-            "title": "L'îlot - Branding",
-            "imgSrc": "/images/project-cover-images/Zohra Amel Ouferhat-L'îlot Branding-Cover.jpg",
-            "alt": "L'îlot - Branding"
+            "title": "Steward - Branding",
+            "imgSrc": "/images/graphic-design/steward-branding-cover-zohra amel ouferhat-100.jpg",
+            "alt": "Steward - Branding",
+            "link": "https://www.behance.net/gallery/222815971/Steward-Money-Solutions-Financial-Logo-design"
         },
         {
             "id": "4",
-            "title": "L'îlot - Branding",
-            "imgSrc": "/images/project-cover-images/Zohra Amel Ouferhat-L'îlot Branding-Cover.jpg",
-            "alt": "L'îlot - Branding"
-        },
-        {
-            "id": "5",
-            "title": "L'îlot - Branding",
-            "imgSrc": "/images/project-cover-images/Zohra Amel Ouferhat-L'îlot Branding-Cover.jpg",
-            "alt": "L'îlot - Branding"
-        },
-        {
-            "id": "6",
-            "title": "L'îlot - Branding",
-            "imgSrc": "/images/project-cover-images/Zohra Amel Ouferhat-L'îlot Branding-Cover.jpg",
-            "alt": "L'îlot - Branding"
+            "title": "Fennec Technologies",
+            "imgSrc": "/images/graphic-design/fennec-branding-cover-zohra amel ouferhat-100.jpg",
+            "alt": "Fennect Technologies",
+            "link": "https://www.behance.net/gallery/83439817/Fennec"
         }
         ],
         "vi": [
