@@ -7,13 +7,13 @@
             {
                 "id": "1",
                 "title": "Hikma - Landing Page",
-                "imgSrc": "../../../public/images/project-cover-images/Zohra Amel Ouferhat-Hikma-Landing Page.jpg",
+                "imgSrc": "/images/project-cover-images/Zohra Amel Ouferhat-Hikma-Landing Page.jpg",
                 "alt": "L'îlot - Branding"
             },
             {
                 "id": "2",
                 "title": "Hikma - Landing Page",
-                "imgSrc": "../../../public/images/project-cover-images/Zohra Amel Ouferhat-Hikma-Landing Page.jpg",
+                "imgSrc": "/images/project-cover-images/Zohra Amel Ouferhat-Hikma-Landing Page.jpg",
                 "alt": "L'îlot - Branding"
             }
         ],
@@ -21,37 +21,37 @@
         {
             "id": "1",
             "title": "L'îlot - Branding",
-            "imgSrc": "../../../public/images/project-cover-images/Zohra Amel Ouferhat-L'îlot Branding-Cover.jpg",
+            "imgSrc": "/images/project-cover-images/Zohra Amel Ouferhat-L'îlot Branding-Cover.jpg",
             "alt": "L'îlot - Branding"
         },
         {
             "id": "2",
             "title": "L'îlot - Branding",
-            "imgSrc": "../../../public/images/project-cover-images/Zohra Amel Ouferhat-L'îlot Branding-Cover.jpg",
+            "imgSrc": "/images/project-cover-images/Zohra Amel Ouferhat-L'îlot Branding-Cover.jpg",
             "alt": "L'îlot - Branding"
         },
         {
             "id": "3",
             "title": "L'îlot - Branding",
-            "imgSrc": "../../../public/images/project-cover-images/Zohra Amel Ouferhat-L'îlot Branding-Cover.jpg",
+            "imgSrc": "/images/project-cover-images/Zohra Amel Ouferhat-L'îlot Branding-Cover.jpg",
             "alt": "L'îlot - Branding"
         },
         {
             "id": "4",
             "title": "L'îlot - Branding",
-            "imgSrc": "../../../public/images/project-cover-images/Zohra Amel Ouferhat-L'îlot Branding-Cover.jpg",
+            "imgSrc": "/images/project-cover-images/Zohra Amel Ouferhat-L'îlot Branding-Cover.jpg",
             "alt": "L'îlot - Branding"
         },
         {
             "id": "5",
             "title": "L'îlot - Branding",
-            "imgSrc": "../../../public/images/project-cover-images/Zohra Amel Ouferhat-L'îlot Branding-Cover.jpg",
+            "imgSrc": "/images/project-cover-images/Zohra Amel Ouferhat-L'îlot Branding-Cover.jpg",
             "alt": "L'îlot - Branding"
         },
         {
             "id": "6",
             "title": "L'îlot - Branding",
-            "imgSrc": "../../../public/images/project-cover-images/Zohra Amel Ouferhat-L'îlot Branding-Cover.jpg",
+            "imgSrc": "/images/project-cover-images/Zohra Amel Ouferhat-L'îlot Branding-Cover.jpg",
             "alt": "L'îlot - Branding"
         }
         ],
@@ -59,7 +59,7 @@
             {
                 "id": "1",
                 "title": "Success",
-                "imgSrc": "../../../public/images/project-cover-images/Zohra Amel Ouferhat-L'îlot Branding-Cover.jpg",
+                "imgSrc": "/images/project-cover-images/Zohra Amel Ouferhat-L'îlot Branding-Cover.jpg",
                 "alt": "L'îlot - Branding"
             }
         ]
