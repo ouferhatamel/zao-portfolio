@@ -6,15 +6,52 @@
         "web": [
             {
                 "id": "1",
-                "title": "Hikma - Landing Page",
-                "imgSrc": "/images/project-cover-images/Zohra Amel Ouferhat-Hikma-Landing Page.jpg",
-                "alt": "L'îlot - Branding"
+                "title": "Hikma website",
+                "imgSrc": "/images/web/hikma-website-cover-zohra amel ouferhat.jpg",
+                "alt": "Hikma - Website",
+                "link": "https://www.behance.net/gallery/164573307/Hikma-Landing-web-page"
             },
             {
                 "id": "2",
-                "title": "Hikma - Landing Page",
-                "imgSrc": "/images/project-cover-images/Zohra Amel Ouferhat-Hikma-Landing Page.jpg",
-                "alt": "L'îlot - Branding"
+                "title": "ML's Visuals",
+                "imgSrc": "/images/web/amel's portfolio-website-cover-zohra amel ouferhat.jpg",
+                "alt": "ML's Visuals - Website",
+                "link": "#"
+            },
+            {
+                "id": "3",
+                "title": "WTIG",
+                "imgSrc": "/images/web/william&turner-website-cover-zohra amel ouferhat.jpg",
+                "alt": "WTIG - Website",
+                "link": "https://williamturner-grading.com/"
+            },
+            {
+                "id": "4",
+                "title": "Hello School",
+                "imgSrc": "/images/web/helloschool-website-cover-zohra amel ouferhat.jpg",
+                "alt": "Hello School - Website",
+                "link": "https://ouferhatamel.github.io/hello-school.com/"
+            },
+            {
+                "id": "5",
+                "title": "Go Skydive Dubai",
+                "imgSrc": "/images/web/goskydivedubai-website-cover-zohra amel ouferhat.jpg",
+                "alt": "Go Skydive Dubai - Website",
+                "link": "https://www.behance.net/gallery/164057117/Dubai-GoSkydive-Landing-web-page"
+            },
+            {
+                "id": "6",
+                "title": "El Mizen",
+                "imgSrc": "/images/web/elmizen-website-cover-zohra amel ouferhat.jpg",
+                "alt": "El Mizen - Website",
+                "link": "https://ouferhatamel.github.io/el-mizen/"
+            },
+            {
+                "id": "7",
+                "title": "Diver Studio",
+                "imgSrc": "/images/web/diverstudio-website-cover-zohra amel ouferhat.jpg",
+                "alt": "Diver Studio - Website",
+                "link": "https://ouferhatamel.github.io/el-mizen/"
             }
         ],
         "gd": [
