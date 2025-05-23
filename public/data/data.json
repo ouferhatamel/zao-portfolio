@@ -5,49 +5,49 @@
     "Projects": {
         "web": [
             {
-                "id": "1",
+                "id": "web-1",
                 "title": "Hikma website",
                 "imgSrc": "/images/web/hikma-website-cover-zohra amel ouferhat.jpg",
                 "alt": "Hikma - Website",
                 "link": "https://www.behance.net/gallery/164573307/Hikma-Landing-web-page"
             },
             {
-                "id": "2",
+                "id": "web-2",
                 "title": "ML's Visuals",
                 "imgSrc": "/images/web/amel's portfolio-website-cover-zohra amel ouferhat.jpg",
                 "alt": "ML's Visuals - Website",
                 "link": "#"
             },
             {
-                "id": "3",
+                "id": "web-3",
                 "title": "WTIG",
                 "imgSrc": "/images/web/william&turner-website-cover-zohra amel ouferhat.jpg",
                 "alt": "WTIG - Website",
                 "link": "https://williamturner-grading.com/"
             },
             {
-                "id": "4",
+                "id": "web-4",
                 "title": "Hello School",
                 "imgSrc": "/images/web/helloschool-website-cover-zohra amel ouferhat.jpg",
                 "alt": "Hello School - Website",
                 "link": "https://ouferhatamel.github.io/hello-school.com/"
             },
             {
-                "id": "5",
+                "id": "web-5",
                 "title": "Go Skydive Dubai",
                 "imgSrc": "/images/web/goskydivedubai-website-cover-zohra amel ouferhat.jpg",
                 "alt": "Go Skydive Dubai - Website",
                 "link": "https://www.behance.net/gallery/164057117/Dubai-GoSkydive-Landing-web-page"
             },
             {
-                "id": "6",
+                "id": "web-6",
                 "title": "El Mizen",
                 "imgSrc": "/images/web/elmizen-website-cover-zohra amel ouferhat.jpg",
                 "alt": "El Mizen - Website",
                 "link": "https://ouferhatamel.github.io/el-mizen/"
             },
             {
-                "id": "7",
+                "id": "web-7",
                 "title": "Diver Studio",
                 "imgSrc": "/images/web/diverstudio-website-cover-zohra amel ouferhat.jpg",
                 "alt": "Diver Studio - Website",
@@ -56,63 +56,63 @@
         ],
         "gd": [
         {
-            "id": "1",
+            "id": "gd-1",
             "title": "L'îlot",
             "imgSrc": "/images/graphic-design/l'ilot-branding-cover-zohra amel ouferhat.jpg",
             "alt": "L'îlot - Branding",
             "link": "https://www.behance.net/gallery/222366265/Llot-Architecture-Brand-Identity"
         },
         {
-            "id": "2",
+            "id": "gd-2",
             "title": "Hikma",
             "imgSrc": "/images/graphic-design/hikma-branding-cover-zohra amel ouferhat.jpg",
             "alt": "Hikma - Branding",
             "link": "https://www.behance.net/gallery/164573307/Hikma-Landing-web-page"
         },
         {
-            "id": "3",
+            "id": "gd-3",
             "title": "Steward - Branding",
             "imgSrc": "/images/graphic-design/steward-branding-cover-zohra amel ouferhat.jpg",
             "alt": "Steward - Branding",
             "link": "https://www.behance.net/gallery/222815971/Steward-Money-Solutions-Financial-Logo-design"
         },
         {
-            "id": "4",
+            "id": "gd-4",
             "title": "Fennec Technologies",
             "imgSrc": "/images/graphic-design/fennec-branding-cover-zohra amel ouferhat.jpg",
             "alt": "Fennect Technologies",
             "link": "https://www.behance.net/gallery/83439817/Fennec"
         },
         {
-            "id": "5",
+            "id": "gd-5",
             "title": "ST-GROUP",
             "imgSrc": "/images/graphic-design/st-group-branding-cover-zohra amel ouferhat.jpg",
             "alt": "ST-GROUP",
             "link": "#"
         },
         {
-            "id": "6",
+            "id": "gd-6",
             "title": "Ahmed Al Saeed",
             "imgSrc": "/images/graphic-design/ahmed Al Saeed-branding-cover-zohra amel ouferhat.jpg",
             "alt": "Ahmed Al Saeed",
             "link": "#"
         },
         {
-            "id": "7",
+            "id": "gd-7",
             "title": "Diver Studio",
             "imgSrc": "/images/graphic-design/diver studio-branding-cover-zohra amel ouferhat.jpg",
             "alt": "Diver Studio",
             "link": "#"
         },
         {
-            "id": "8",
+            "id": "gd-8",
             "title": "Go Skydive Dubai",
             "imgSrc": "/images/graphic-design/goskydive-dubai-branding-cover-zohra amel ouferhat.jpg",
             "alt": "Go Skydive Dubai",
             "link": "#"
         },
         {
-            "id": "9",
+            "id": "gd-9",
             "title": "El Mizen",
             "imgSrc": "/images/graphic-design/elmizen-branding-cover-zohra amel ouferhat.jpg",
             "alt": "El Mizen",
@@ -121,7 +121,7 @@
         ],
         "vi": [
             {
-                "id": "1",
+                "id": "vi-1",
                 "title": "Success",
                 "imgSrc": "/images/project-cover-images/Zohra Amel Ouferhat-L'îlot Branding-Cover.jpg",
                 "alt": "L'îlot - Branding"
