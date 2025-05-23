@@ -122,9 +122,59 @@
         "vi": [
             {
                 "id": "vi-1",
-                "title": "Success",
-                "imgSrc": "/images/project-cover-images/Zohra Amel Ouferhat-L'îlot Branding-Cover.jpg",
-                "alt": "L'îlot - Branding"
+                "title": "",
+                "imgSrc": "/images/graphic-design/visual idea-01-cover-zohra amel ouferhat.jpg",
+                "alt": "Visual Idea",
+                "link": "https://www.instagram.com/amelouferhat/"
+            },
+            {
+                "id": "vi-2",
+                "title": "",
+                "imgSrc": "/images/graphic-design/visual idea-02-cover-zohra amel ouferhat.jpg",
+                "alt": "Visual Idea",
+                "link": "https://www.instagram.com/amelouferhat/"
+            },
+            {
+                "id": "vi-3",
+                "title": "",
+                "imgSrc": "/images/graphic-design/visual idea-03-cover-zohra amel ouferhat.jpg",
+                "alt": "Visual Idea",
+                "link": "https://www.instagram.com/amelouferhat/"
+            },
+            {
+                "id": "vi-4",
+                "title": "",
+                "imgSrc": "/images/graphic-design/visual idea-04-cover-zohra amel ouferhat.jpg",
+                "alt": "Visual Idea",
+                "link": "https://www.instagram.com/amelouferhat/"
+            },
+            {
+                "id": "vi-5",
+                "title": "",
+                "imgSrc": "/images/graphic-design/visual idea-05-cover-zohra amel ouferhat.jpg",
+                "alt": "Visual Idea",
+                "link": "https://www.instagram.com/amelouferhat/"
+            },
+            {
+                "id": "vi-6",
+                "title": "",
+                "imgSrc": "/images/graphic-design/visual idea-06-cover-zohra amel ouferhat.jpg",
+                "alt": "Visual Idea",
+                "link": "https://www.instagram.com/amelouferhat/"
+            },
+            {
+                "id": "vi-7",
+                "title": "",
+                "imgSrc": "/images/graphic-design/visual idea-07-cover-zohra amel ouferhat.jpg",
+                "alt": "Visual Idea",
+                "link": "https://www.instagram.com/amelouferhat/"
+            },
+            {
+                "id": "vi-8",
+                "title": "",
+                "imgSrc": "/images/graphic-design/visual idea-08-cover-zohra amel ouferhat.jpg",
+                "alt": "Visual Idea",
+                "link": "https://www.instagram.com/amelouferhat/"
             }
         ]
     }
