@@ -49,7 +49,10 @@ export default function ProjectPortfolio() {
               imgSrc={project.imgSrc}
               alt={project.alt}
               link={project.link}
+              category={activeCategory}
+              tags={project.tags || []}
             />
+
           ))
         }
       </div>

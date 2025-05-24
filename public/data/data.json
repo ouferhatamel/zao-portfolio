@@ -9,49 +9,56 @@
                 "title": "Hikma website",
                 "imgSrc": "/images/web/hikma-website-cover-zohra amel ouferhat.jpg",
                 "alt": "Hikma - Website",
-                "link": "https://www.behance.net/gallery/164573307/Hikma-Landing-web-page"
+                "link": "https://www.behance.net/gallery/164573307/Hikma-Landing-web-page",
+                "tags": ["html", "css", "js"]
             },
             {
                 "id": "web-2",
                 "title": "ML's Visuals",
                 "imgSrc": "/images/web/amel's portfolio-website-cover-zohra amel ouferhat.jpg",
                 "alt": "ML's Visuals - Website",
-                "link": "#"
+                "link": "#",
+                "tags": ["react js", "html", "css", "js"]
             },
             {
                 "id": "web-3",
                 "title": "WTIG",
                 "imgSrc": "/images/web/william&turner-website-cover-zohra amel ouferhat.jpg",
                 "alt": "WTIG - Website",
-                "link": "https://williamturner-grading.com/"
+                "link": "https://williamturner-grading.com/",
+                "tags": ["html", "css", "js", "firebase"]
             },
             {
                 "id": "web-4",
                 "title": "Hello School",
                 "imgSrc": "/images/web/helloschool-website-cover-zohra amel ouferhat.jpg",
                 "alt": "Hello School - Website",
-                "link": "https://ouferhatamel.github.io/hello-school.com/"
+                "link": "https://ouferhatamel.github.io/hello-school.com/",
+                "tags": ["html", "css", "js"]
             },
             {
                 "id": "web-5",
                 "title": "Go Skydive Dubai",
                 "imgSrc": "/images/web/goskydivedubai-website-cover-zohra amel ouferhat.jpg",
                 "alt": "Go Skydive Dubai - Website",
-                "link": "https://www.behance.net/gallery/164057117/Dubai-GoSkydive-Landing-web-page"
+                "link": "https://www.behance.net/gallery/164057117/Dubai-GoSkydive-Landing-web-page",
+                "tags": ["html", "css", "js"]
             },
             {
                 "id": "web-6",
                 "title": "El Mizen",
                 "imgSrc": "/images/web/elmizen-website-cover-zohra amel ouferhat.jpg",
                 "alt": "El Mizen - Website",
-                "link": "https://ouferhatamel.github.io/el-mizen/"
+                "link": "https://ouferhatamel.github.io/el-mizen/",
+                "tags": ["html", "css", "js"]
             },
             {
                 "id": "web-7",
                 "title": "Diver Studio",
                 "imgSrc": "/images/web/diverstudio-website-cover-zohra amel ouferhat.jpg",
                 "alt": "Diver Studio - Website",
-                "link": "https://ouferhatamel.github.io/el-mizen/"
+                "link": "https://ouferhatamel.github.io/el-mizen/",
+                "tags": ["html", "css", "js"]
             }
         ],
         "gd": [
