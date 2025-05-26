@@ -4,7 +4,7 @@ export default function ProjectCard({ title, imgSrc, alt, link, category, tags =
   const isWeb = category === "web";
 
   return (
-    <a href={link} className="ProjectCard">
+    <a href={link} target="_blank" className="ProjectCard">
       <div className="overlay">
         <div className="cardInfo">
           <h3>{title}</h3>
