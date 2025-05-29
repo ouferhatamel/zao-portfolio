@@ -4,4 +4,11 @@
 }
 .contact .right {
   height: 100%;
+}
+@media only screen and (max-width: 576px) {
+  .contact .left {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 }/*# sourceMappingURL=Contact.css.map */

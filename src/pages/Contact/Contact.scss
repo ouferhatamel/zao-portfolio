@@ -1,7 +1,15 @@
+@import '../../styles/variables';
 .contact{
     display: flex;
     align-items: flex-start;
     .right{
         height: 100%;
+    }
+    @media only screen and (max-width: $breakpoint-sm){
+        .left{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
     }
 }
