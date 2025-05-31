@@ -101,13 +101,13 @@
   .businessCard .circles .circle-1 {
     height: 180px;
     width: 180px;
-    top: 20px;
+    top: 100px;
     left: 10px;
   }
   .businessCard .circles .circle-2 {
     height: 130px;
     width: 130px;
-    bottom: 230px;
+    bottom: 180px;
     right: 10px;
   }
 }
