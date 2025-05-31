@@ -1,0 +1,42 @@
+.imanage .right {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.imanage .right h2, .imanage .right h3 {
+  color: #ffbe1a;
+  margin-bottom: 0.5rem;
+}
+.imanage .right ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.imanage .right ul li {
+  background-color: rgba(255, 190, 26, 0.3);
+  border-radius: 25px;
+  padding: 4px 12px;
+  font-size: 0.9rem;
+}
+.imanage .right .buttons {
+  display: flex;
+  gap: 1rem;
+}
+.imanage .right .cta {
+  border: 1px solid #ffbe1a;
+  border-radius: 25px;
+  color: #ffbe1a;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.5rem 0.8rem;
+}
+.imanage .right .cta:hover {
+  background-color: rgba(255, 190, 26, 0.3);
+  color: #FEF7ED;
+}
+.imanage .right .cta:focus {
+  background-color: #ffbe1a;
+  color: #222222;
+}/*# sourceMappingURL=IManage.css.map */

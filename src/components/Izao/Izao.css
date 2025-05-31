@@ -44,15 +44,15 @@
   background-color: #bb3d3c;
   color: #FEF7ED;
 }
-.izao .buttons a.visualize {
+.izao .buttons a.manage {
   border: 1px solid #ffbe1a;
   color: #ffbe1a;
 }
-.izao .buttons a.visualize:hover {
+.izao .buttons a.manage:hover {
   background-color: rgba(255, 190, 26, 0.3);
   color: #FEF7ED;
 }
-.izao .buttons a.visualize.active {
+.izao .buttons a.manage.active {
   background-color: #ffbe1a;
   color: #222222;
 }

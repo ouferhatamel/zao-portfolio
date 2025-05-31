@@ -28,7 +28,16 @@ export default function IDesign() {
                 <li>Figma</li>
             </ul>
           </div>
-          <Link className="cta" to='/Contact'>Work With Me &#8594;</Link>
+          <div className="buttons">
+          <a
+          href="/resumes/Zohra Amel_Ouferhat_Graphic Designer_resume.pdf"
+          download
+          className="cta"
+          >
+            Download Resume &#8595;
+          </a>
+          <Link className="cta" to='/Contact'>Hire me &#8594;</Link>
+        </div>
         </div>
     </div>
   )

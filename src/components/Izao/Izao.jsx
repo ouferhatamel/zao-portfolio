@@ -25,10 +25,10 @@ export default function Izao({ onChangeBtn, activeBtn }) {
           I Design
         </NavLink>
         <NavLink 
-          to="/I_Visualize"
-          className={({isActive}) => isActive ? "visualize active" : "visualize"}
+          to="/I_Manage"
+          className={({isActive}) => isActive ? "manage active" : "manage"}
         >
-          I Visualize
+          I Manage
         </NavLink>
         
       </div>

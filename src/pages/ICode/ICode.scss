@@ -22,8 +22,24 @@
                 font-size: .9rem;
             }
         }
+        .buttons{
+            display: flex;
+            gap: 1rem;
+        }
         .cta{
-            color: $clr3;
+            border: 1px solid $clr1;
+            border-radius: 25px;
+            color: $clr1;
+            width: fit-content;
+            padding: .5rem .8rem;
+            &:hover{
+                background-color: rgba(106, 149, 123, 30%);
+                color: $light;
+            }
+            &:focus{
+                background-color: $clr1;
+                color: $dark;
+            }
         }
     }
 }

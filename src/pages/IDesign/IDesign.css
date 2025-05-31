@@ -20,6 +20,23 @@
   padding: 4px 12px;
   font-size: 0.9rem;
 }
+.idesign .right .buttons {
+  display: flex;
+  gap: 1rem;
+}
 .idesign .right .cta {
-  color: #ffbe1a;
+  border: 1px solid #bb3d3c;
+  border-radius: 25px;
+  color: #bb3d3c;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.5rem 0.8rem;
+}
+.idesign .right .cta:hover {
+  background-color: rgba(187, 61, 60, 0.3);
+  color: #FEF7ED;
+}
+.idesign .right .cta:focus {
+  background-color: #bb3d3c;
+  color: #222222;
 }/*# sourceMappingURL=IDesign.css.map */

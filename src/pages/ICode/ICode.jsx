@@ -33,7 +33,17 @@ export default function ICode() {
                 <li>Express.js</li>
             </ul>
         </div>
-        <Link className="cta" to='/Contact'>Hire me &#8594;</Link>
+        <div className="buttons">
+          <a
+          href="/resumes/Zohra Amel Ouferhat_Front-End Web developer_Resume.pdf"
+          download
+          className="cta"
+          >
+            Download Resume &#8595;
+          </a>
+          <Link className="cta" to='/Contact'>Hire me &#8594;</Link>
+        </div>
+        
         
       </div>
     </div>

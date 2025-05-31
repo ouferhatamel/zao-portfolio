@@ -7,7 +7,7 @@ import Portfolio from './pages/Portfolio/Portfolio'
 import Contact from './pages/Contact/Contact'
 import ICode from './pages/ICode/ICode'
 import IDesgin from './pages/IDesign/IDesign'
-import IVisualize from './pages/IVisualize/IVisualize'
+import IManage from './pages/IManage/IManage'
 
 function App() {
   const router = createBrowserRouter(
@@ -18,7 +18,7 @@ function App() {
         <Route path='/Contact' element= {<Contact />} />
         <Route path='/I_Code' element= {< ICode/>} />
         <Route path='/I_Design' element={<IDesgin />} />
-        <Route path='/I_Visualize' element={<IVisualize />} />
+        <Route path='/I_Manage' element={<IManage />} />
       </Route>
     )
   )
