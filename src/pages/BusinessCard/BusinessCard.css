@@ -1,1 +1,133 @@
-/*# sourceMappingURL=BusinessCard.css.map */
+.businessCard {
+  margin-top: 5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+.businessCard .circles {
+  position: absolute;
+  height: 270px;
+  width: 450px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.businessCard .circles .circle {
+  position: absolute;
+  border-radius: 50%;
+}
+.businessCard .circles .circle-1 {
+  height: 240px;
+  width: 240px;
+  top: 100px;
+  left: -40px;
+  background: linear-gradient(120deg, #ffbe1a, rgba(255, 190, 26, 0.5411764706));
+}
+.businessCard .circles .circle-2 {
+  height: 180px;
+  width: 180px;
+  bottom: 100px;
+  right: -20px;
+  background: linear-gradient(120deg, #ffbe1a, rgba(255, 190, 26, 0.5411764706));
+}
+.businessCard .card .frontSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  aspect-ratio: 1/1;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 2rem;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(35px);
+          backdrop-filter: blur(35px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 80px rgba(0, 0, 0, 0.25);
+  transition: all ease 0.1s;
+  cursor: pointer;
+}
+.businessCard .card .frontSide:hover {
+  box-shadow: rgba(255, 255, 255, 0.12) 0px 19px 38px, rgba(255, 255, 255, 0.15) 0px 15px 12px;
+}
+.businessCard .card .frontSide h3 {
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}
+.businessCard .card .frontSide p {
+  font-size: 0.9rem;
+}
+.businessCard .card .backSide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FEF7ED;
+  aspect-ratio: 1/1;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 2rem;
+  border-radius: 25px;
+  box-shadow: 0 0 80px rgba(0, 0, 0, 0.25);
+}
+.businessCard .card .backSide img {
+  width: 240px;
+  height: auto;
+  max-width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.businessCard .buttons {
+  display: flex;
+  gap: 1rem;
+}
+.businessCard .buttons button {
+  border-color: #ffbe1a;
+}
+.businessCard .buttons button:hover {
+  background-color: rgba(255, 190, 26, 0.3);
+  color: #FEF7ED;
+}
+@media only screen and (max-width: 576px) {
+  .businessCard {
+    margin-top: 12rem;
+  }
+  .businessCard .circles {
+    width: 380px;
+  }
+  .businessCard .circles .circle-1 {
+    height: 180px;
+    width: 180px;
+    top: 20px;
+    left: 10px;
+  }
+  .businessCard .circles .circle-2 {
+    height: 130px;
+    width: 130px;
+    bottom: 230px;
+    right: 10px;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .businessCard {
+    margin-top: 5rem;
+  }
+  .businessCard .circles {
+    width: 280px;
+  }
+  .businessCard .circles .circle-1 {
+    height: 180px;
+    width: 180px;
+    top: 130px;
+    left: -40px;
+  }
+  .businessCard .circles .circle-2 {
+    height: 110px;
+    width: 110px;
+    bottom: 170px;
+    right: -30px;
+  }
+}/*# sourceMappingURL=BusinessCard.css.map */

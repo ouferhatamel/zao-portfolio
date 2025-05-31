@@ -8,6 +8,7 @@ import Contact from './pages/Contact/Contact'
 import ICode from './pages/ICode/ICode'
 import IDesgin from './pages/IDesign/IDesign'
 import IManage from './pages/IManage/IManage'
+import BusinessCard from './pages/BusinessCard/BusinessCard'
 
 function App() {
   const router = createBrowserRouter(
@@ -19,6 +20,7 @@ function App() {
         <Route path='/I_Code' element= {< ICode/>} />
         <Route path='/I_Design' element={<IDesgin />} />
         <Route path='/I_Manage' element={<IManage />} />
+        <Route path='/BusinessCard' element={<BusinessCard/>} />
       </Route>
     )
   )

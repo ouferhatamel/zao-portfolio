@@ -55,7 +55,7 @@ export default function BizCard() {
             </p>
           <p>
             <FaEnvelope style={{ marginRight: "8px" }} />
-            zora.amel.ouferhat@gmail.com
+            zohra.amel.ouferhat@gmail.com
             </p>
           <p>
             <FaGlobe style={{ marginRight: "8px" }} />
@@ -77,7 +77,7 @@ export default function BizCard() {
         onClick={handleDownloadFrontPNG}
          >
             Download card
-        </button>
+      </button>
       </div>
     </div>
   );
