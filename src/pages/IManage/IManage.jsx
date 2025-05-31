@@ -30,7 +30,7 @@ export default function IManage() {
         </div>
         <div className="buttons">
           <a
-            href="/resumes/Zohra_Amel_Ouferhat_Project_Manager_Resume.pdf"
+            href="/resumes/Zohra Amel Ouferhat_Project Manager_Resume.pdf"
             download
             className="cta"
           >
