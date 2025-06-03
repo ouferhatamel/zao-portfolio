@@ -28,7 +28,7 @@ export default function Home() {
         <p>
           I'm a front-end engineer and web designer with a passion for both <b style={{ color: '#BB3D3C' }}>design</b> and <b style={{ color: '#6A957B' }}>code</b>. I create solutions for the web that are easy to use and visually clean. I also have experience in <b style={{ color: '#FFBE1A' }}>project management</b> and enjoy turning concepts into clear, organized, and actionable plans that bring ideas to life.
         </p>
-        <Link className="cta" to='/Contact'>Work with me &#8594;</Link>
+        <Link className="cta" to='/Contact'>Hire me &#8594;</Link>
       </div>
     </div>
   );
