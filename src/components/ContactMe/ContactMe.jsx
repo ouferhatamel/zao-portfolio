@@ -14,7 +14,7 @@ export default function ContactMe() {
                 <div className="contactInfo">
                     <a href="mailto:zohra.amel.ouferhat@gmail.com" target='_blank'><img src={email} alt="Email Me" /></a>
                     <a href="tel:+6137934415"><img src={phone} alt="Phone number" /></a>
-                    <a href="https://www.linkedin.com/in/amel-zohra-ouferhat-97467b117/" target='_blank'><img src={linkedin} alt="Linkedin" /></a>
+                    <a href="https://www.linkedin.com/in/zohra-amel-ouferhat-97467b117/" target='_blank'><img src={linkedin} alt="Linkedin" /></a>
                 </div>
             </div>
             <div className='schedule'>

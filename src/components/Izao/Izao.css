@@ -33,15 +33,15 @@
   color: #FEF7ED;
 }
 .izao .buttons a.design {
-  border: 1px solid #bb3d3c;
-  color: #bb3d3c;
+  border: 1px solid #ff7676;
+  color: #ff7676;
 }
 .izao .buttons a.design:hover {
   background-color: rgba(187, 61, 60, 0.3);
   color: #FEF7ED;
 }
 .izao .buttons a.design.active {
-  background-color: #bb3d3c;
+  background-color: #ff7676;
   color: #FEF7ED;
 }
 .izao .buttons a.manage {

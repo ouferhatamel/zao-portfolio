@@ -51,7 +51,7 @@
   border: 2px solid #e6e6e6;
 }
 .projectPortfolio .projects::-webkit-scrollbar-thumb:hover {
-  background-color: #943030;
+  background-color: #ff4343;
 }
 @media only screen and (max-width: 576px) {
   .projectPortfolio .projectFilters {

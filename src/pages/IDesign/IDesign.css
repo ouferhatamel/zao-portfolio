@@ -4,7 +4,7 @@
   gap: 3rem;
 }
 .idesign .right h2, .idesign .right h3 {
-  color: #bb3d3c;
+  color: #ff7676;
   margin-bottom: 0.5rem;
 }
 .idesign .right ul {
@@ -25,9 +25,9 @@
   gap: 1rem;
 }
 .idesign .right .cta {
-  border: 1px solid #bb3d3c;
+  border: 1px solid #ff7676;
   border-radius: 25px;
-  color: #bb3d3c;
+  color: #ff7676;
   width: -moz-fit-content;
   width: fit-content;
   padding: 0.5rem 0.8rem;
@@ -37,6 +37,6 @@
   color: #FEF7ED;
 }
 .idesign .right .cta:focus {
-  background-color: #bb3d3c;
+  background-color: #ff7676;
   color: #222222;
 }/*# sourceMappingURL=IDesign.css.map */
